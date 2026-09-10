@@ -1,2 +1,2 @@
 # Parkinson-Disease-Classification-Using-Explainable-AI
-Developed a deep learning model to classify Parkinson’s patients from healthy controls using PET brain scans. Applied Grad-CAM activation maps to interpret and visualize model predictions.
+This project uses a fine-tuned VGG16 convolutional neural network to classify Parkinson's Disease from PET scan brain images. The model is trained to distinguish between PD and Non-PD cases by learning relevant patterns in the scans. For interpretability, Grad-CAM and CAM techniques are applied to visualize the brain regions most influential in the model's predictions, using both single-layer and multi-layer activation mapping.
